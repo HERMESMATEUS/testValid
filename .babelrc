@@ -1,0 +1,20 @@
+{
+    "plugins": [
+        [
+            "module-resolver",
+            {
+                "root": [
+                    "./src"
+                ],
+                "alias": {
+                    "@screens": "./src/screens",
+                    "@functions": "./src/functions",
+                    "@components": "./src/components",
+                    "@redux": "./src/redux",
+                    "@gateway": "./src/gateway",
+                    "@constants": "./src/constants"
+                }
+            }
+        ]
+    ]
+}

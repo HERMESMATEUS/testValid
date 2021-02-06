@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@screens/*": ["./src/screens/*"],
+        "@functions/*": ["./src/functions/*"],
+        "@components/*": ["./src/components/*"],
+        "@redux/*": ["./src/redux/*"],
+        "@gateway/*": ["./src/gateway/*"],
+        "@constants/*": ["./src/constants/*"],
+      }
+    }
+  }
+  
